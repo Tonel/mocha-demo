@@ -1,6 +1,6 @@
-const MathService = require('../services/math');
+import { MathService } from '../services/math.js';
 
-const MathController = {
+export const MathController = {
     getFibonacci: (req, res) => {
         // read the parameter from the request URL
         // and validate it
@@ -17,5 +17,3 @@ const MathController = {
         });
     }
 };
-
-module.exports = MathController;

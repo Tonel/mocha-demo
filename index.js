@@ -1,5 +1,5 @@
-const express = require('express');
-const MathController = require('./controllers/math');
+import express from 'express';
+import { MathController } from './controllers/math.js';
 
 // initialize th Express server
 const app = express();

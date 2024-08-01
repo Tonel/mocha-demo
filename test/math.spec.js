@@ -1,7 +1,7 @@
 // tests/math.spec.js
 
-const { expect } = require('chai');
-const MathService = require('../services/math');
+import { expect } from 'chai';
+import { MathService } from '../services/math.js';
 
 describe('MathService', function () {
     describe('#generateFibonacci', function () {
