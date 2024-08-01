@@ -1,5 +1,3 @@
-// tests/math.spec.js
-
 import { expect } from 'chai';
 import { MathService } from '../services/math.js';
 
